@@ -280,12 +280,11 @@
 		background: url('../img/partner-1.png') no-repeat;
 	.partner-icon {
 		display: block;
-		position: relative;
-		width: 125px;
-		height: 126px;
-		top: 2px;
-		left: 2px;
-		margin: auto;
+		position: absolute;
+		top: 85px;
+		left: 85px;
+		width: 41px;
+		height: 41px;
 		background: url('../img/icon-tv.png') no-repeat;
 	}
 	}
@@ -330,7 +329,7 @@
 		width: 125px;
 		height: 126px;
 		top: 12px;
-		left: 3px;
+		left: 4px;
 		margin: auto;
 		background: url('../img/partner-2.png') no-repeat;
 		.partner-icon {
@@ -363,6 +362,9 @@
       width: 222px;
       line-height: 17px;
       letter-spacing: 0.01vw;
+      color: #636262;
+      font-family: "Roboto Light";
+      font-size: 14px;
       color: #636262;
       font-family: $font-par;
       font-size: 14px;

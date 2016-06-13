@@ -3,14 +3,12 @@ $font-bth:    'Montserrat Regular';
 $font-par:    'Roboto light';
 $bg-color:    '#292c32';
 $white:       #fff;
-$black:       #000;
-@mixin border-radius($radius) {
+$black:       #000;;@mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
       -ms-border-radius: $radius;
           border-radius: $radius;
-}
-@font-face{
+};@font-face{
     font-family: 'Montserrat Bold';
     src: url('../fonts/Montserrat-Bold.ttf') format('truetype'); 
     font-weight: normal;
@@ -110,8 +108,7 @@ a{
 
 a img {
     border: none; 
-}
-
+};
 
 @media screen and (max-width: 320px) {
 	.header_wrapper {
@@ -769,8 +766,7 @@ p:after {
 
 }
 }
-
-/*max-width: 768px*/
+;/*max-width: 768px*/
 @media screen  and (max-width: 768px) and (min-width: 321px) {
 
     .header_wrapper {
@@ -1052,12 +1048,11 @@ p:after {
 		background: url('../img/partner-1.png') no-repeat;
 	.partner-icon {
 		display: block;
-		position: relative;
-		width: 125px;
-		height: 126px;
-		top: 2px;
-		left: 2px;
-		margin: auto;
+		position: absolute;
+		top: 85px;
+		left: 85px;
+		width: 41px;
+		height: 41px;
 		background: url('../img/icon-tv.png') no-repeat;
 	}
 	}
@@ -1102,7 +1097,7 @@ p:after {
 		width: 125px;
 		height: 126px;
 		top: 12px;
-		left: 3px;
+		left: 50px;
 		margin: auto;
 		background: url('../img/partner-2.png') no-repeat;
 		.partner-icon {
@@ -1135,6 +1130,9 @@ p:after {
       width: 222px;
       line-height: 17px;
       letter-spacing: 0.01vw;
+      color: #636262;
+      font-family: "Roboto Light";
+      font-size: 14px;
       color: #636262;
       font-family: $font-par;
       font-size: 14px;
@@ -1416,16 +1414,15 @@ p:after {
 	   font-size: 16px;
 	   letter-spacing: 1px;
 	   margin-top: 15px;
-	   margin-left: -248px;
-
-	   
+	   margin-left: 38px;
+	   margin-right: 38px;	   
 	}
 
 	.footer__company {
 		display: block;
 		float: left;
-		width: 100px;
-		margin-right: 10px;
+		width: 156px;
+		margin-right: 15px;
 		h4 {
 			text-align: center;
 			color: $black;
@@ -1438,13 +1435,13 @@ p:after {
 		}
 		.bottom__menu {
 			display: block;
-			width: 100px;
+			width: 130px;
 			margin:0 auto;
 			margin-top: 12px;
 		}
 		.bottom__menu .menu__item {
 			display: block;
-			margin-left: 15px;
+			margin-left: 31px;
 			margin-top: 5px;
 			padding: 0;
 		}
@@ -1464,9 +1461,9 @@ p:after {
 	display: inline-block;
 	text-align: center;
 	float: left;
-	width: 59px;
-	margin-left: 15px;
-	margin-right: 15px;
+	width: 61px;
+	margin-left: 43px;
+	margin-right: 41px;
 	h4 {
 		text-align: center;
 		color: $black;
@@ -1480,7 +1477,7 @@ p:after {
 .logo {
 	text-align: center;
 	display: inline-block;
-	width: 100px;
+	width: 120px;
 	margin-left: 75px;
 	p {
 		width: 91px;
@@ -1500,8 +1497,7 @@ p:after {
 	}
 }
 }
-
-
+;
 @media screen and (max-width: 1440px) and (min-width: 769px) {
 	.header_wrapper {
 		display: block;
@@ -2068,6 +2064,7 @@ p:after {
 	display: inline-block;
 	text-align: center;
 	width: 64%;
+
 }
 
 .input-activities {

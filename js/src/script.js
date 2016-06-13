@@ -81,7 +81,7 @@ var $grid = $('.grid').imagesLoaded(function() {
 
 $.ajax({
 	type: 'GET',
-	url: 'http://api.pixplorer.co.uk/image?word=' + 'hawaii' + '&amount=7&size=300',
+	url: 'http://api.pixplorer.co.uk/image?word=' + 'italia rim' + '&amount=7&size=tb',
 
 	dataType: 'json',
 	success: function(data) {

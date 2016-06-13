@@ -882,12 +882,11 @@ a img {
         background: url("../img/partner-1.png") no-repeat; }
         .content-partners .partner-1 .partner-img .partner-icon {
           display: block;
-          position: relative;
-          width: 125px;
-          height: 126px;
-          top: 2px;
-          left: 2px;
-          margin: auto;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
           background: url("../img/icon-tv.png") no-repeat; }
       .content-partners .partner-1 .partner-name:after {
         content: 'Bradly Hunter';
@@ -924,7 +923,7 @@ a img {
         width: 125px;
         height: 126px;
         top: 12px;
-        left: 3px;
+        left: 50px;
         margin: auto;
         background: url("../img/partner-2.png") no-repeat; }
         .content-partners .partner-3 .partner-img .partner-icon {
@@ -954,6 +953,9 @@ a img {
         width: 222px;
         line-height: 17px;
         letter-spacing: 0.01vw;
+        color: #636262;
+        font-family: "Roboto Light";
+        font-size: 14px;
         color: #636262;
         font-family: "Roboto light";
         font-size: 14px; }
@@ -1199,12 +1201,13 @@ a img {
       font-size: 16px;
       letter-spacing: 1px;
       margin-top: 15px;
-      margin-left: -248px; }
+      margin-left: 38px;
+      margin-right: 38px; }
     .footer .footer__company {
       display: block;
       float: left;
-      width: 100px;
-      margin-right: 10px; }
+      width: 156px;
+      margin-right: 15px; }
       .footer .footer__company h4 {
         text-align: center;
         color: #000;
@@ -1216,12 +1219,12 @@ a img {
         margin-left: 0px; }
       .footer .footer__company .bottom__menu {
         display: block;
-        width: 100px;
+        width: 130px;
         margin: 0 auto;
         margin-top: 12px; }
       .footer .footer__company .bottom__menu .menu__item {
         display: block;
-        margin-left: 15px;
+        margin-left: 31px;
         margin-top: 5px;
         padding: 0; }
       .footer .footer__company .bottom__menu .menu__link {
@@ -1237,9 +1240,9 @@ a img {
     display: inline-block;
     text-align: center;
     float: left;
-    width: 59px;
-    margin-left: 15px;
-    margin-right: 15px; }
+    width: 61px;
+    margin-left: 43px;
+    margin-right: 41px; }
     .footer__partners h4 {
       text-align: center;
       color: #000;
@@ -1252,7 +1255,7 @@ a img {
   .logo {
     text-align: center;
     display: inline-block;
-    width: 100px;
+    width: 120px;
     margin-left: 75px; }
     .logo p {
       width: 91px;

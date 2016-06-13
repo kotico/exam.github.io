@@ -1,6 +1,6 @@
 {
   "name": "exam",
-  "description": "The JavaScript Task Runner",
+  "description": "",
   "version": "1.0.1",
   "author": {
     "name": "Grunt Development Team",
@@ -54,6 +54,7 @@
     "grunt-legacy-log": "~1.0.0",
     "grunt-legacy-util": "~1.0.0",
     "iconv-lite": "~0.4.13",
+    "imagesloaded": "^4.1.0",
     "js-yaml": "~3.5.2",
     "lodash": "^4.13.1",
     "minimatch": "~3.0.0",
@@ -76,6 +77,9 @@
     "temporary": "~0.0.4",
     "through2": "~2.0.0"
   },
+  "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1"
+    },
   "files": [
     "lib",
     "bin"

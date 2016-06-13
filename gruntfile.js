@@ -2,7 +2,9 @@ module.exports = function(grunt) {
 
 	grunt.initConfig({
 		concat: {
-			
+			options: {
+              separator: ';'
+            },
 			dist: {
 				src: ['styles/variables.scss', 'styles/mixin.scss', 'styles/reset.scss', 'styles/style_320px.scss', 'styles/style_768px.scss', 'styles/style_1440px.scss'],
 				dest: 'styles/main.scss',
